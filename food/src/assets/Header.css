@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.header {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.header-content {
+    font-family: 'Rubik';
+    font-weight: bold;
+    display: flex;
+    font-size: large;
+    width: 100%;
+    color: black;
+    height: 60px;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-content img {
+    width: 100px;
+    margin-right: 20px;
+}

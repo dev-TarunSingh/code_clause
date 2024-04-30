@@ -1,0 +1,30 @@
+.food-card {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: black;
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.food-card h2 {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.food-card:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}

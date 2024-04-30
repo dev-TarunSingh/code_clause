@@ -1,0 +1,15 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.filter-button {
+    border-radius: 25px;
+}
